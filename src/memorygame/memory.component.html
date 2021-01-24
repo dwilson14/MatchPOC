@@ -1,3 +1,5 @@
 <app-dashboard></app-dashboard>
-<app-chessboard></app-chessboard>
+<app-rules *ngIf="rules"></app-rules>
+<app-chessboard *ngIf="(status$ | async) !== status.PASS"></app-chessboard>
+<app-entry-form *ngIf="(status$ | async) === status.PASS"></app-entry-form>
 <app-status></app-status>

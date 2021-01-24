@@ -34,8 +34,8 @@
                   "with": "src/index.prod.html"
                 }
               ],
-              "deployUrl": "/angular6-memory-game/",
-              "baseHref": "/angular6-memory-game/",
+              "deployUrl": "/",
+              "baseHref": "/",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,

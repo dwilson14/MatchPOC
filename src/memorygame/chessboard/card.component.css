@@ -1,7 +1,8 @@
 :host {
-    width: 100px;
-    height: 121px;
+    width: 147px;
+    height: 147px;
     margin-right: 3px;
+    padding: 5px;
     cursor: pointer;
     position: relative;
     perspective: 800px;
@@ -31,24 +32,28 @@
     background: blue;
     transform: rotateY( 180deg );
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 770px) {
     :host {
-        width: 92px;
-        height: 111px;
+        width: 125px;
+        height: 125px;
         margin-right: 1px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    :host {
+        width: 90px;
+        height: 90px;
+        margin-right: 1px;
+        padding: 1px;
+    }
+}
+
 @media screen and (max-width: 380px) {
     :host {
         width: 85px;
-        height: 102px;
+        height: 85px;
         margin-right: 1px;
-    }
-}
-@media screen and (max-width: 360px) {
-    :host {
-        width: 70px;
-        height: 84px;
-        margin-right: 1px;
+        padding: 1px;
     }
 }

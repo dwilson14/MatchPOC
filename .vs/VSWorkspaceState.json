@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\memorygame",
+    "\\src\\memorygame\\chessboard",
+    "\\src\\memorygame\\entry-form",
+    "\\src\\memorygame\\status",
+    "\\src\\store\\action",
+    "\\src\\store\\model",
+    "\\src\\store\\reducer"
+  ],
+  "SelectedNode": "\\package.json",
+  "PreviewInSolutionExplorer": false
+}

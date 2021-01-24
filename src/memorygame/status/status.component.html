@@ -1,5 +1,6 @@
 
-<span *ngIf="(status$ | async) === status.READY">Ready</span>
-<span *ngIf="(status$ | async) === status.PLAYING">Playing</span>
-<span class="hand" *ngIf="(status$ | async) === status.PASS" (click)="reset($event)">Play again</span>
-<span class="elapsed">{{ elapsedMs$ | async }} s</span>
+<div id="wrapper">
+    <!--<div class="pointer" (click)="navigate()">-->
+    <img class="no-social" src="https://jwdcatalogimages.s3.amazonaws.com/catalog/Cupid/vday-Footer.2.jpg" alt="footer" width="100%" />
+    <img class="social" src="https://jwdcatalogimages.s3.amazonaws.com/catalog/Cupid/vday-mobile-footer2.jpg" width="100%" />
+</div>

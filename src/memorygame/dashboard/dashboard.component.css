@@ -1,8 +1,66 @@
 :host{
-    width: 100%;
+    width: 80%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     flex-shrink: 0;
+    margin:0 auto;
+}
+#wrapper {
+    width: 100%;
+}
+#wrapper > img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.rules {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 5%;
+    height: 100px;
+    cursor: pointer;
+}
+.social {
+    display: none !important;
+}
+
+.no-social {
+    display: inline-block;
+}
+
+@media screen and (max-width: 450px) {
+    :host {
+        width: 100%;
+        max-height: 40px;
+        justify-content: space-around;
+    }
+    #wrapper > img {
+        width: 100%;
+        max-height: 35px;
+    }
+
+    .social {
+        display: inline-block !important;
+    }
+
+    .no-social {
+        display: none !important;
+    }
+    .rules {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5%;
+        height: 35px;
+        cursor: pointer;
+    }
+}
+
+> > > a {
+    text-decoration: none;
+    color: #fff;
 }

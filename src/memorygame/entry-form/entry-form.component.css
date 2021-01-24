@@ -1,0 +1,193 @@
+article {
+    margin: 0 auto;
+}
+
+button {
+    margin: 50px auto;
+    display: block;
+}
+
+h1 {
+    font-size: 2.7em;
+    text-align: center;
+    font-family: Open Sans;
+    color: #036;
+    padding: 20px 0;
+    line-height: 1.25em;
+}
+
+h2 {
+    font-size: 2.1em;
+    text-align: center;
+    font-family: Open Sans;
+    color: #036;
+    padding: 20px 0;
+    line-height: 1em;
+}
+
+.row {
+    width: 100%;
+    letter-spacing: -1.25px;
+    margin: 0;
+    min-height: 100px;
+    align-items: center;
+    align-content: center;
+}
+
+.m80 {
+    max-width: 80%;
+    margin: 15px auto 15px;
+}
+
+.container {
+    background: white;
+}
+
+.spinner-border {
+    margin: 5px auto;
+    display: block;
+}
+
+.name-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-form {
+    border: 1px solid #e0dbdb;
+    padding: 25px;
+    margin-bottom: 50px;
+    color: #969696;
+    background: #f3eeef;
+    letter-spacing: 0.2rem;
+    line-height: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.half {
+    width: 50%;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /*align-items: center;*/
+    justify-content: center;
+    letter-spacing: -1.25px;
+    margin: 0;
+}
+
+.price {
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #a30112;
+    font-family: 'Sterling SSm 3r','Sterling SSm A','Sterling SSm B',serif;
+}
+
+.shadow-border {
+    -webkit-box-shadow: 0 0 5px #aaaaaa, 0 0 5px #aaaaaa;
+    box-shadow: 0 0 5px #aaaaaa, 0 0 5px #aaaaaa;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 21%;
+    align-items: center;
+    /*justify-content: center;*/
+    text-align: left;
+    font-size: 20px;
+}
+
+.form-control-feedback {
+    margin-top: -1rem;
+}
+
+.right {
+    text-align: right;
+}
+
+.right-65 {
+    display: block;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Crimson Text',sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #036;
+}
+
+.product-detail {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 100%;
+    margin: 5px 15px;
+}
+
+a {
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+input[type=email] {
+    width: 100%;
+}
+
+input[type=password] {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+a:link {
+    text-decoration: underline;
+    color: #969696;
+}
+
+.first-name {
+    max-width: 90%;
+}
+
+@media all and (max-width: 815px) {
+
+    .btn {
+        display: block;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 1.9em;
+    }
+
+    #contact-form {
+    }
+
+    .half {
+        width: 100% !important;
+    }
+
+    .first-name {
+        max-width: 100% !important;
+    }
+
+    .row2 {
+        display: block;
+    }
+
+    .column2 {
+        flex: none;
+        text-align: center;
+    }
+}

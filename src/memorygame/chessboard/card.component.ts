@@ -16,7 +16,7 @@ export class CardComponent {
   backCard: ICard
 
   constructor() {
-    this.backCard = CARDS.find(c => c.name === 'back')
+      this.backCard = CARDS.find(c => c.name === 'Jewelex%20FS2020/back.jpg')
   }
 
   flip(info: ICard) {

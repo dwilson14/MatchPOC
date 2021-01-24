@@ -1,0 +1,38 @@
+.row {
+    width: 100%;
+    letter-spacing: -1.25px;
+    margin: 0;
+    min-height: 100px;
+}
+
+.return {
+    text-align: center;
+    font-size: 12px;
+    display: block;
+}
+a {
+    color: black;
+}
+.m80 {
+    max-width: 70%;
+    margin: 15px auto 0 auto;
+}
+
+.container {
+    background: white;
+    padding:10px;
+}
+
+ol {
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+.mid-center {
+    text-align: center;
+    margin: 25px auto;
+    height: 450px;
+}
